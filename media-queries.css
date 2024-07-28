@@ -1,0 +1,171 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    h1{
+    font-size: 2.5rem;
+    }
+    h2{
+    font-size: 1.8rem;
+    }
+    h3 {
+    font-size: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    h1{
+    font-size: 2.5rem;
+    }
+    h2{
+    font-size: 1.8rem;
+    }
+    h3 {
+    font-size: 1.4rem;
+    }
+
+    .outer{
+        flex-direction: column-reverse;
+    }
+
+    .right-box{
+        width: auto;
+    }
+
+    .left-box{
+        width: 100%;
+    }
+
+    .primary-button{
+        width: 100%;
+        display: block;
+    }
+
+    .secondary-button{
+        margin-top: -20px;
+        width: 100%;
+        display: block;
+    }
+
+    .services-container{
+        flex-direction: column-reverse;
+    }
+
+    .service-Right-box img{
+        width: 620px;
+    }
+
+    .service-button{
+        display: block;
+        width: 100%;
+    }
+
+    .icon-size{
+        width: 60px;
+        height: 60px;
+    }
+
+    .images-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctor-list{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-section{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact{
+        background-position: center;
+    }
+
+    .blog-list{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-section{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .last-section{
+        text-align: center;
+    }
+
+     .medium-container{
+        padding: var(--container-padding);
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    h1{
+    font-size: 2rem;
+    }
+    h2{
+    font-size: 1.5rem;
+    }
+    h3 {
+    font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .medium-container{
+        padding: var(--container-padding);
+        padding: 20px;
+    }
+
+    .images-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctor-list{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-section{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact{
+        background-position: center;
+    }
+
+    .blog-list{
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer-section{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .last-section{
+        text-align: center;
+    }
+
+    .blogs-card{
+        height: 265px;
+    }
+}

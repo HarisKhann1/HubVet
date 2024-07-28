@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --container-padding: 80px;
+    --yellow-background-color: rgb(245, 200, 69);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgba(21, 158, 158, 0.82);
+    transition: 0.2s ease-out;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* ================================================== */
+/* nav links */
+header {
+    background-color: #b49e0c;
+    padding: 18px;
+    box-shadow: 0 0 5px  #b49e0c ;
+    /* position: relative;s */
+}
+
+.company-logo h1{
+  font-size: 2rem;  
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-toggle{
+    display: none;
+}
+.nav-links ul li a{
+    color: black;
+}
+
+.nav-links ul li a:hover{
+    color: rgba(21, 158, 158, 0.82);
+}
+
+.nav-links ul{
+    gap: 40px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.nav-links ul input{
+    padding: 7px;
+}
+
+
+#sticky{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+/* ===================================================== */
+/* 1st landing section */
+
+.landing-section{
+    /* padding: var(--container-padding); */
+    padding: 120px;
+    background-color: var(--yellow-background-color);
+}
+
+.outer{
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.left-box{
+    width: 100vw;
+    padding-bottom: 20px;
+}
+
+.right-box{
+    width: 100vw;
+}
+.right-box img{
+    height: 350px;
+    /* width: 350px; */
+    width: 100%;
+}
+.margin-20{
+    margin-block: 40px;
+}
+
+.primary-button{
+    background-color: cyan;
+    padding: 13px 24px;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.primary-button:hover{
+    background-color: rgba(21, 158, 158, 0.82);
+    color: white;
+}
+
+
+.secondary-button{
+    border: 2px solid white;
+    padding: 11px 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.secondary-button:hover{
+    border: 3px solid rgba(21, 158, 158, 0.82);
+}
+
+.input-text {
+    /* background-color: #F5C845; */
+    background-color: cyan;
+    border-radius: 5px;
+}
+
+/* ============================================== */
+/* Our services */
+
+.Our-services{
+    padding: var(--container-padding);
+}
+
+.services-container{
+    justify-content: space-between;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+}
+
+.service-Right-box img{
+    height: 320px;
+    width: 100%;
+    border: 1px solid #b49e0c;
+    box-shadow: 2px 2px 3px black;
+}
+
+.service-button{
+    background-color: var(--yellow-background-color);
+    padding: 13px 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-button:hover{
+    transition: 0.2s ease-out;
+    background-color: rgba(21, 158, 158, 0.82);
+    color: white;
+}
+
+.absolute{
+    position: relative;
+}
+.yellow-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 193, 9, 0.603);
+}
+/* ===================================================== */
+/* feature */
+
+.features{
+    background-color: var(--yellow-background-color);
+    padding: var(--container-padding);
+}
+
+.upper-box-feature{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.upper-box-feature p{
+    margin-top: 20px;
+}
+
+
+.Images img {
+    width: 250px;
+    height: 250px;
+    border: 3px solid white;
+}
+
+.images-container{
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 30px;
+}
+/* ========================================================== */
+/* doctor sections */
+
+.doctor-list-section{
+    padding: var(--container-padding);
+}
+.doctor-list img{
+    width: 220px;
+    height: 280px;
+}
+
+.img-doctor img {
+    box-shadow: 1px 1px 4px var(--yellow-background-color);
+}
+
+.doctor-list{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.padding-text{
+    margin-bottom: 3px;
+}
+
+.icon a img {
+    margin-top: 7px;
+    margin-right: 10px;
+     width: 25px;
+    height: 25px;
+    box-shadow: none;
+    background-color: var(--yellow-background-color);
+    border-radius: 50%;
+}
+
+
+/* ==================================================== */
+/* Contact section */
+
+.contact{
+    background-color: var(--yellow-background-color);
+    padding: var(--container-padding);
+    background-image: url(https://img.freepik.com/free-photo/veterinarian-taking-care-pet-dog_23-2149198683.jpg?t=st=1721920333~exp=1721923933~hmac=df98acde5f3312435acefaad14d77b83372b9fde161242279d639179ca59372b&w=996);
+    background-size: cover;
+}
+
+.align-center{
+    text-align: center;
+    position: relative;
+}
+
+.icon-size{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.align-center p{
+    margin-block: 10px;
+    font-size: 1.5rem;
+}
+
+.contact-section{
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+/* =================================================== */
+/* Blogs */
+
+.blogs{
+    padding: var(--container-padding);
+}
+
+.blog-list{
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blog-img img{
+    width: 220px;
+    height: 240px;
+}
+
+
+.blogs-card{
+    width: 220px;
+    height: 210px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px black;
+    padding: 20px;
+    margin-top: -4px;
+}
+
+.blogs h3 {
+    font-size: 1.2rem;
+}
+.blogs-card h5 {
+    margin-top: 5px;
+    color: #16dcdcd6;
+}
+
+.blogs-card p {
+    font-size: 1rem;
+    margin-block: 10px;
+}
+
+.blogs-card h4 a{
+    color: #16dcdcd6;
+}
+
+.blogs-card h4 a:hover{
+    color: rgba(21, 158, 158, 0.82);
+    transition: 0.2s ease-out ;
+}
+
+/* footer section */
+footer{
+    background-color: rgba(0, 0, 0, 0.831);
+    color: white;
+    padding: var(--container-padding);
+}
+
+.footer-section{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    padding-block: 3px;
+}
+.margin-h3{
+    margin-bottom: 15px;
+}
+li a {
+    color: white;
+}
+
+.margin-footer{
+    margin-top: -12px;
+    margin-bottom: 19px;
+}
+input{
+    padding: 7px;
+    margin-bottom: 15px;
+    background-color: var(--yellow-background-color);
+}
+
+.icon a img:hover{
+    background-color: cyan;
+}
+
+/* .footer-section li a:hover{
+    color: cyan;
+} */
+
+
+
+
